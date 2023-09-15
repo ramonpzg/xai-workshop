@@ -2,6 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ramonpzg/xai-worksohp/HEAD)
 
+Slides can be found [here](https://slides.com/ramongz/explainable-ai#/5).
 
 ## Description
 
