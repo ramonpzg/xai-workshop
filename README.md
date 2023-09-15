@@ -1,5 +1,7 @@
 # Unlocking ~the Black-Box~ ML Models
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ramonpzg/xai-worksohp/HEAD)
+
 
 ## Description
 
@@ -82,7 +84,7 @@ pip install -r requirements.txt
 
 python -m venv venv
 source venv/bin/activate
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
 
 #### Third Step
