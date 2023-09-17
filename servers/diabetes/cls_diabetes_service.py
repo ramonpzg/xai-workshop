@@ -27,10 +27,10 @@ class DiabetesExplainer(MLModel):
 
 
 async def main():
-    settings = Settings(debug=True)
-    my_server = MLServer(settings=settings)
+    settings   = Settings(debug=True)
+    my_server  = MLServer(settings=settings)
     classifier = ModelSettings(name='diabetes_classifier', implementation=DiabetesClassifier)
-    explainer = ModelSettings(name='diabetes_explainer', implementation=DiabetesExplainer)
+    explainer  = ModelSettings(name='diabetes_explainer', implementation=DiabetesExplainer)
     await my_server.start(models_settings=[classifier, explainer])
 
 if __name__ == '__main__':
